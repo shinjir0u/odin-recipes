@@ -1,18 +1,33 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     color: white;
     background-color: aqua;
     text-align: center;
     padding: 10px;
-    margin: 0;
+    margin: auto;
+    margin-top: 0;
 }
 
 ul {
     font-size: large;
+    width: 100%;
+    background-color: aquamarine;
 }
 
 li {
-    background-color: rgba(0, 0, 0, 0.6);
-    opacity: 0.6;
+    background-color: rgba(4, 238, 247, 0.6);
     display: inline-block;
     padding: 10px;
+    border: 2px solid rgb(7, 119, 122);
+    margin: -3px;
 }
